@@ -68,20 +68,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 ▶️ FastAPI Server
-bash
-Copy
-Edit
 uvicorn app.main:app --reload
 ▶️ Start Celery Worker
-bash
-Copy
-Edit
 celery -A app.celery worker --loglevel=info
 ▶️ WebSocket Client
-bash
-Copy
-Edit
 python websocket_client.py
+
+Start: Mock_websocket_server.py(Also) 
 ☁️ AWS Lambda & S3
 Create an S3 bucket and upload trade files.
 
