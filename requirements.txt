@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+motor
+pydantic
+python-dotenv
+celery
+redis
+boto3
+websockets
