@@ -11,7 +11,6 @@ Moneyy.AI/
 │ ├── main.py # FastAPI entry point
 │ ├── crud.py # CRUD operations
 │ ├── database.py # DB connection setup
-│ ├── models.py # Pydantic/ORM models
 │ ├── schemas.py # Request/Response schemas
 │ ├── tasks.py # Celery background tasks
 │ ├── celery.py # Celery config
